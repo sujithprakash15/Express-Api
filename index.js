@@ -25,7 +25,7 @@ try {
 }
 })
 
-mongoose.connect('mongodb+srv://admin:admin@api.jry1zia.mongodb.net/nodeapi?retryWrites=true&w=majority&appName=api')
+mongoose.connect('YOUR MONGODB SERVER')
 .then(()=>
 {
     console.log('connected to MongoDB')
