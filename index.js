@@ -3,6 +3,9 @@ const express = require('express');
 const app=express();
 const port= 3000;
 
-app.listen(port, ()=>{
-    console.log(`Listening on port ${port}`)
+//routes
+app.get('/hai',(req,res)=>{
+    res.send('Hellow');
 });
+
+app.listen(port);
